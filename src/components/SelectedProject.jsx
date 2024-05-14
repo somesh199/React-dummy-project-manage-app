@@ -1,3 +1,5 @@
+import React from 'react';
+
 function SelectedProject({project}) {
 
     const formattedDate = new Date(project.dueDate).toLocaleDateString('en-US', {

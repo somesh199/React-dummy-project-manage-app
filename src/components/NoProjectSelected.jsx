@@ -1,3 +1,4 @@
+import React from 'react';
 import noProjectImg from '../assets/no-projects.png';
 import Button from './Button';
 
