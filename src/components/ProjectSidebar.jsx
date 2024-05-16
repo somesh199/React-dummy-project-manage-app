@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Button from "./Button";
 
 function ProjectSidebar({onStartAddProject, project, onSelectProject, selectedProjectId}) {
@@ -24,7 +24,7 @@ function ProjectSidebar({onStartAddProject, project, onSelectProject, selectedPr
                     <li key={project.id}>
                         <button 
                             className={cssClasses}
-                            onClick={onSelectProject}
+                            onClick={()=>onSelectProject(project.id)}
                         >
                             {project.title}
                         </button>
